@@ -26,7 +26,6 @@ function showInfo(item) {
     container.innerHTML = "";
     console.log(item)
 
-    console.log(item)
     container.innerHTML += `
         
         <div class ="card">
