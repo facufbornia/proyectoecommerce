@@ -252,3 +252,13 @@ document.addEventListener("DOMContentLoaded", function() {
     toggleNightMode();
   });
 
+// Obtener el ID para comprar y agregar en el carrito 
+
+function getID(){
+    document.getElementById("btnCart").addEventListener("click", function () {
+
+     localStorage.setItem("catBuyID", receivedProd);
+     window.location = "cart.html";
+   });
+}
+  
