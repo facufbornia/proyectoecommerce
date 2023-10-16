@@ -13,6 +13,7 @@ function callJSONImg() {
         .then(data => {
             img = data.images;
             callImg(img) //Muestro las imagenes
+            getID()
         })
         .catch(error => console.log(error))
 }
